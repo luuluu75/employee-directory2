@@ -28,7 +28,7 @@
    
    *Instructions and examples for use:*
    
-   This application allows users to track thier budget on the go, even when they are offline. It show cases the code th
+   This application is integrated with a third party API which returns random user profiles. You can sort and search for profiles by name.
    
    ## License
    
