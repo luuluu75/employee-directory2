@@ -1,5 +1,5 @@
 # # Employee Directory
-   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/luuluu75/employee-directory?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/luuluu75/employee-directory?style=flat&logo=appveyor)
+   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/luuluu75/employee-directory2?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/luuluu75/employee-directory2?style=flat&logo=appveyor)
    
    Check out the badges hosted by [shields.io](https://shields.io/).
    
@@ -28,7 +28,7 @@
    
    *Instructions and examples for use:*
    
-   This application allows users to track thier budget on the go, even when they are offline. It show cases the code th
+   This application is integrated with a third party API which returns random user profiles. You can sort and search for profiles by name.
    
    ## License
    
@@ -38,5 +38,5 @@
    
    ## Project Links
 
-   * Github Repository - https://github.com/luuluu75/employee-directory.git
-   * Deployed Link -  https://luuluu75.github.io/employee-directory/
+   * Github Repository - https://github.com/luuluu75/employee-directory2.git
+   * Deployed Link -  https://luuluu75.github.io/employee-directory2/
