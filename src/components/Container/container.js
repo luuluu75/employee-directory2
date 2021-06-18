@@ -22,7 +22,7 @@ class Container extends Component {
 
   // When this component mounts, load random users as employees from https://randomuser.me/
   componentDidMount() {
-    API.getRandomUser()
+    API.getRandomUser(console.log())
       .then((res) =>
         this.setState({
           employees: res.data.results,
@@ -55,7 +55,7 @@ class Container extends Component {
           [key]: this.state.sortDirections[key] === "asc" ? "desc" : "asc",
         },
       });
-    } else {
+     } else {
       sortedEmployees = this.state.filteredEmployees.sort((a, b) => {
         a = a[key];
         b = b[key];
@@ -91,9 +91,9 @@ class Container extends Component {
               .toLowerCase()
               .concat(" ", employee.name.last.toLowerCase())
               .includes(input) ||
+            employee.phone.includes(input) ||
             employee.email.includes(input) ||
-            employee.location.city.includes(input) ||
-            employee.dob.age.includes(input)
+            employee.dob.date.includes(input)
           );
         }),
       });

@@ -19,7 +19,7 @@ const Table = (props) => {
             <span onClick={() => props.sortBy("location")}>Email</span>
           </th>
           <th scope="col">
-            <span onClick={() => props.sortBy("dob", "age")}>Date of Birth</span>
+            <span onClick={() => props.sortBy("dob")}>Date of Birth</span>
           </th>
         </tr>
       </thead>
